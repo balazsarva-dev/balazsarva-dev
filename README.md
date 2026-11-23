@@ -2,6 +2,10 @@
 
 Indie developer working at the intersection of **Data, AI and Full-Stack** · Budapest 🇭🇺
 
+<p align="center"><img src="./assets/tech-stack.svg" width="100%"></p>
+
+<p align="center"><img src="./assets/current-focus.svg" width="100%"></p>
+
 ### 🔗 Links
 [![Business](https://img.shields.io/badge/Business-balazsarva.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://balazsarva.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-arvab.site-111?style=for-the-badge&logo=About.me&logoColor=white)](https://arvab.site)
