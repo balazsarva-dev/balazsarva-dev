@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="285" viewBox="0 0 230 285">
+<defs><filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter></defs>
+<style>
+  .card { fill: #0c0604; stroke: #ff6a00; stroke-width: 1.5; stroke-dasharray: 1000; stroke-dashoffset: 1000;
+          animation: draw 1.4s ease forwards, pulse 3s ease-in-out 2.5s infinite; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes pulse { 50% { stroke: #ff2a2a; } }
+  .icon { fill: none; stroke: #ffb000; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;
+          opacity: 0; animation: fade .6s ease .6s forwards; filter: url(#glow); }
+  .needle { transform-origin: 0px 6px; animation: swing 3s ease-in-out infinite; }
+  @keyframes swing { 0%,100% { transform: rotate(-60deg); } 50% { transform: rotate(10deg); } }
+  .ctitle { font: 700 18px Consolas, Menlo, monospace; letter-spacing: 3px; fill: #ff6a00; text-anchor: middle;
+            opacity: 0; animation: fade .6s ease .8s forwards; filter: url(#glow); }
+  .link { font: 700 13px Consolas, Menlo, monospace; fill: #ffb000; text-anchor: middle; opacity: 0; animation: fade .6s ease 1.1s forwards; }
+  .sep { stroke: #ff2a2a; stroke-opacity: .6; stroke-dasharray: 200; stroke-dashoffset: 200; animation: draw .8s ease 1s forwards; }
+  .item { font: 14px Consolas, Menlo, monospace; fill: #ffd9bf; text-anchor: middle; opacity: 0; animation: up .5s ease forwards; }
+  .arrow { font: 700 14px Consolas, Menlo, monospace; fill: #ff2a2a; text-anchor: middle; animation: nudge 1.6s ease-in-out infinite; }
+  @keyframes nudge { 50% { transform: translateX(5px); } }
+  @keyframes fade { to { opacity: 1; } }
+  @keyframes up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+<rect class="card" x="2" y="2" width="226" height="281" rx="10"/>
+<g class="icon" transform="translate(115.0,50)"><rect x="-20" y="-10" width="40" height="28" rx="4"/><path d="M-8 -10 V-16 H8 V-10"/>
+<line x1="-20" y1="2" x2="20" y2="2"/><rect x="-4" y="-1" width="8" height="6" rx="1"/></g>
+<text class="ctitle" x="115.0" y="108">BUSINESS</text>
+<text class="link" x="115.0" y="132">balazsarva.com</text>
+<line class="sep" x1="22" y1="150" x2="208" y2="150"/>
+<text class="item" x="115.0" y="186" style="animation-delay:1.50s">Full-stack &amp; AI</text><text class="item" x="115.0" y="208" style="animation-delay:1.65s">development for</text><text class="item" x="115.0" y="230" style="animation-delay:1.80s">businesses</text>
+<text class="arrow" x="115.0" y="267">→</text>
+</svg>
