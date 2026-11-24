@@ -3,7 +3,7 @@
   <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
 </filter></defs>
 <style>
-  .card { fill: #0c0604; stroke: #ff6a00; stroke-width: 1.5; stroke-dasharray: 1000; stroke-dashoffset: 1000;
+  .card { fill: #0c0604; stroke: #ff6a00; stroke-width: 1.5; stroke-dasharray: 1200; stroke-dashoffset: 1200;
           animation: draw 1.4s ease forwards, pulse 3s ease-in-out 2.5s infinite; }
   @keyframes draw { to { stroke-dashoffset: 0; } }
   @keyframes pulse { 50% { stroke: #ff2a2a; } }
