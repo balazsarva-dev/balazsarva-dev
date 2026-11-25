@@ -1,7 +1,7 @@
 # Hi, I'm Balazs 👋
 
 > [!NOTE]
-> **Indie developer working at the intersection of **Data, AI and Full-Stack** · Budapest 🇭🇺**
+> **Developer working at the intersection of **Data, AI and Full-Stack** · Budapest 🇭🇺**
 
 <p align="center"><img src="./assets/tech-stack.svg" width="100%"></p>
 
